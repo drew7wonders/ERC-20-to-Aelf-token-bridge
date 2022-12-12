@@ -1,1 +1,4 @@
 # ERC-20-to-Aelf-token-bridge
+This a decentralized contract for a token bridge that enables cross-chain transfer of ERC-20 tokens between EVM chains and aelf chain.
+
+This contract defines a TokenBridge that enables the transfer of ERC-20 tokens between an EVM chain and an aelf chain. The contract maintains a mapping of token balances, which is updated whenever a transfer occurs. The contract also defines a transfer function that transfers tokens from the ERC-20 contract on the EVM chain to the aelf chain. This function is called with a _tokenId and a _value representing the token to be transferred and the amount to be transferred, respectively. The function first checks that the transfer amount is valid and that the user has sufficient balance, and then it transfers the tokens and updates the token balance on the token bridge.
